@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="all.css" rel="stylesheet">
+<title>Ferofly</title>
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400,700");
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #222;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<nav class="nav-header" id="page-top-nav">
+<div class="container">
+<ul class="menu">
+
+<li class="menu-item"> <a href="#home">HOME</a></li>
+<li class="menu-item"> <a href="#about">ABOUT</a></li>
+<li class="menu-item"> <a href="#rooms">ROOMS</a></li>
+<li class="menu-item"> <a href="#services">SERVICES</a></li>
+<li class="menu-item"> <a href="#gall">GALLERY</a></li>
+<li class="menu-item"> <a href="#see">SEE & DO</a></li>
+<li class="menu-item"> <a href="#contact">CONTACT</a></li>
+<button class="button1" onclick="document.getElementById('id01').style.display='block'" style="width:100px;" >Book A Room</button>
+</ul>
+</div>
+</nav>
+<section id="home">
+<div style="padding-top:8%; font-family: didot-w01-italic,serif;">
+<center>
+<i><h1 style="font-size:50px;">Ferofly</h1><br>
+<h3 style="font-size:25px;">--Magnify your Journey--</h3></i>
+</center>
+</div>
+<div style="padding-top:4%; position:relative;">
+<center><img src="2.jpg"></img></center>
+</div>
+<div >
+<center>
+<form style="max-width: 1000px;">
+<label>Check in<input  class="dob" type="date" name="bdaymonth" /></label>
+  <label> Check out<input class="dob" type="date"  name="bdaymonth"></label>
+   <label>Adults <input class="num" type="number" ></label>
+   <label> Kids<input class="num" type="number" ></label>
+  <input style="display:inline-block;width:150px; font-size:30px;" type="submit" value="search" onclick="search()">
+</form>
+</center>
+</div>
+</section>
+
+<section id="about">
+<div style="padding-top:5%">
+<center>
+<h1 style="font: italic normal normal 18px/1.4em brandon-grot-w01-light,sans-serif; font-size:30px">ABOUT</h1><br><br>
+<p style="width:45%; font: italic normal normal 18px/1.4em brandon-grot-w01-light,sans-serif;">I'm a paragraph. Click here to add your own text and edit me. 
+It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. 
+Feel free to drag and drop me anywhere you like on your page. 
+I’m a great place for you to tell a story and let your users know a little more about you.​
+</center>
+</p>
+
+</div>
+</section>
+
+<section id="rooms">
+<div class="contain" style="padding-top:5%; position:relative;">
+<center><img src="3.jpg"></img></center>
+<div class="on" >
+<center><br>
+<p style="font-size: 30px;">OUR ROOMS</p><br><br>
+<p style="width:40%">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p><br></br>
+<button class="button1" onclick="document.getElementById('id01').style.display='block'" style="width:200px;" ><p style="font-size: 20px;">Book A Room</p></button><br>
+</center></div>
+</div>
+</section>
+
+
+<section style="height:700px;" id="services">
+<div ">
+<div style="padding-top:5%;">
+<center><h1 style="font-size:25px">OUR SERVICES</h1></center>
+</div>
+<div style="width:60%; margin-left:20%; margin-right:auto; padding-top:3%; display:block; position:relative" >
+<center>
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="4.jpg" alt="Cinque Terre" width="800" height="800">
+  </a>
+  <div class="desc">Breakfast</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="5.jpg" alt="Forest" width="800" height="800">
+  </a>
+  <div class="desc">Garden</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="6.jpg" alt="Northern Lights" width="800" height="800">
+  </a>
+  <div class="desc">Pool</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="7.jpg" alt="Mountains" width="800" height="800">
+  </a>
+  <div class="desc">Free Wifi</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="8.jpg" alt="Mountains" width="800" height="800">
+  </a>
+  <div class="desc">Daily Housekeeping</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="9.jpg" alt="Mountains" width="800" height="800">
+  </a>
+  <div class="desc" style="width:250px;">In-Room Dining Service</div>
+</div>
+</center>
+</div>
+</div>
+</section>
+
+
+<section style="height:700px;" id="gall">
+<div style="padding-top:5%;">
+<center><h1 style="font-size:25px">GALLERY</h1></center>
+<div style="width:60%; margin-left:20%; margin-right:auto; padding-top:3%; display:block; position:relative" >
+<center>
+<div class="gal">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="10.jpg" alt="Cinque Terre" width="800" height="800">
+  </a>
+</div>
+
+<div class="gal">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="11.jpg" alt="Forest" width="800" height="800">
+  </a>
+</div>
+
+<div class="gal">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="12.jpg" alt="Northern Lights" width="800" height="800">
+  </a>
+</div>
+</div>
+</section>
+
+<section style="height:400px;" id="see">
+<div ">
+<div style="padding-top:5%;">
+<center><h1 style="font-size:25px">THINGS TO DO</h1></center>
+</div>
+<div style="width:60%; margin-left:20%; margin-right:auto; padding-top:3%; display:block; position:relative" >
+<center>
+<div class="ga">
+  <div class="des">Wineries Tour</div>
+</div>
+
+<div class="ga">
+  <div class="des">Cultural Sites</div>
+</div>
+
+<div class="ga">
+
+  <div class="des">Market Tour </div>
+
+</div>
+
+<div class="ga">
+
+  <div class="des">Leisure Activities</div>
+</div>
+
+<div class="ga">
+
+  <div class="des">Birds Safari</div>
+</div>
+<div class="ga">
+
+  <div class="des" style="width:250px;">Horse Riding </div>
+</div>
+
+</center>
+</div>
+</div>
+</section>
+<div class="contain" style="padding-top:5%; position:relative;">
+<center><img src="13.jpg"></img></center>
+<div class="on" >
+<center><br>
+<p style="font-size: 30px;">GUEST REVIEW</p><br><br>
+<p style="width:40%">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p><br></br>
+</center></div>
+</div>
+
+
+<section id="contact">
+<div style="padding-top:5%">
+<center>
+<h1 style="font-size:25px">CONTACT</h1>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+</center>
+</p>
+
+</div>
+</section>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+</body>
+</html>

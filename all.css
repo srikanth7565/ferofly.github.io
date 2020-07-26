@@ -1,0 +1,267 @@
+.nav-header {
+  background: black;
+  padding: 17px 0;
+  transition: all 0.25s ease-out;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation-top {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 20px;
+  position: fixed;
+  right: 0px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.nav-header.fixed {
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-header.fixed .menu-item a {
+  color: #fff;
+}
+.nav-header.fixed .menu-item a:hover {
+  border-bottom: solid 2px white;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+.menu .menu-item {
+  flex: 1 1 auto;
+}
+.menu .menu-item.logo a {
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu .menu-item a {
+  border-bottom: solid 2px transparent;
+  display: block;
+  padding: 10px 25px;
+  text-align: center;
+  transition: all 300ms;
+}
+.menu .menu-item a:hover {
+  border-bottom: solid 2px red;
+}
+
+.cover {
+  height: 420px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+.cover .full-image {
+  background: url("https://s.yimg.com/uy/build/images/sohp/inspiration/solar-storm3.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover .full-image p {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  z-index: 1;
+  font-size: 60px;
+}
+.cover .full-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+section {
+  min-height: 250px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.section-header h1 {
+  padding: 10px 0;
+}
+
+.section-content {
+  display: flex;
+}
+.section-content img {
+  flex: 0 0 250px;
+  height: 150px;
+  margin-right: 15px;
+}
+.section-content p {
+  flex: 1 1 auto;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.dob{
+font-size:20px;
+width:250px;
+margin-right:20px;
+}
+
+.num{
+font-size:20px;
+margin-right:20px;
+width:100px;
+}
+
+label{display:inline-block; text-align:left;}
+input{display:block;}
+
+.contain{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.on{
+display:block;
+background-color:white;
+font:italic normal normal 18px/1.4em brandon-grot-w01-light,sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom:20px;
+}
+div.ga {
+  margin: 20px;
+  float: left;
+  width: 250px;
+}
+
+div.des {
+  padding: 15px;
+  text-align: center;
+  font-size:25px;
+}
+
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 250px;
+  height: 200px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size:20px;
+}
+
+.gal{
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+.gal img{
+  width: 280px;
+  height: 500px;
+
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+form input,
+form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+form input:focus,
+form textarea:focus {
+  -moz-box-shadow: 0 0px 2px #e74c3c !important;
+  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+form #input-submit {
+  color: white;
+  background: #e74c3c;
+  cursor: pointer;
+}
+form #input-submit:hover {
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
